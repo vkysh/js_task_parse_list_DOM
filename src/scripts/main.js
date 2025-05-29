@@ -33,4 +33,5 @@ function parseSalary(salary) {
 }
 
 const sorted = sortList(employees);
-const employeeObjects = getEmployees(sorted);
+
+getEmployees(sorted);
